@@ -1,5 +1,9 @@
 .thankyou {
-  background-color: blue;
+  display: grid;
+  place-items: center;
+  background-color: rgb(230, 230, 230);
+  padding: 1rem;
+  border: 3px solid black;
 }
 
 .container {
@@ -7,14 +11,13 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* background-color: red; */
 }
 
 .contact-form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: rgb(230, 230, 230);
   height: 35rem;
   width: 40rem;
 }
@@ -43,3 +46,11 @@ label {
   font-size: 1.5rem;
 }
 
+button {
+  background-color: rgb(42, 175, 219);
+  outline: none;
+  border: 3px solid black;
+  font-size: 2rem;
+  width: 12rem;
+  height: 3rem;
+ }
