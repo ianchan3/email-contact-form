@@ -20,6 +20,8 @@
   background-color: rgb(230, 230, 230);
   height: 35rem;
   width: 40rem;
+  padding: 1rem;
+  border: 3px solid black;
 }
 
 form > * {
